@@ -17,12 +17,12 @@
 
 #topmenu a{
 	font-size: 18px;
-	color:#2B5682;
+	color:#E8780C;
 }
 
 #topmenu a:hover{
 	text-decoration: none;
-	color: #224467 ;
+	color: #CF6A0A ;
 }
 
 #navigation{
@@ -39,25 +39,12 @@
 
 #navigation a:hover{
 	color: white;
-	background-color: #34CCFE;
-}
-
-#twitterlogo{
-	position: absolute;
-	display: block;
-	width: 100px;
-	left:50%;
-	margin-top: -50px;
-	margin-left: -50px;
-}
-
-.ez-blue{
-	color:#34CCFE;
+	background-color: #E8780C;
 }
 
 /* Body */
 body h2, h3, h4{
-	color:#2B5682;
+	color:#7E8F7C;
 	margin-bottom: 30px;
 }
 
@@ -71,32 +58,70 @@ body{
 
 #wrapper{
 	height: 600px;
-	background-color: #224467;
+	background-image: url("../images/conference-room.jpg");	
+ 	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   box-shadow: inset 0 0 0 1000px rgba(230,230,230,0.6);
 	padding:150px 50px;
 }
 
 #wrapper h1{
-	color: white;
-	text-shadow: 2px 2px 5px #2D5B8A;
-	font-size:64px;
+	color: #E8780C;
+	text-shadow: 2px 2px 5px #9A938B;
+	font-size:70px;
 }
 
 
 #wrapper h2{
-	color: white;
-	text-shadow: 1px 1px 3px #2D5B8A;
-	font-size:18px;
+	color: #E8780C;
+	text-shadow: 1px 1px 3px #9A938B;
+	font-size:24px;
 	margin-bottom: 50px;
 }
 
 .cta{
-	padding:20px 30px;
+	padding:10px 30px 10px 30px;
 	font-size: 18px;
+	background-color: #0CB8E8;
+	color:white;
+}
+
+.cta:hover{
+	background-color: #0CB8E8;
+	color:white;
+	border:1px solid #00799B;
+}
+
+#wrapper .cours-container{
+	background-color: white;
+	color:#00799B;
+	padding:20px 30px;
+	border-radius: 15px;
+		box-shadow: 2px 2px 5px #9A938B;
+
+}
+
+#wrapper .cours-container .cours-header{
+	color:#9A938B;
+	border-bottom: 1px solid #c9c9c9;
+
+}
+
+#wrapper .cours-container h3{
+	color:#E8780C;
+
+}
+
+#wrapper .cours-container .cours-body{
+	color:#9A938B;
+
 }
 
 /* Comment ça marche */
 .fa{
-	color:#2B5682;
+	color:#C63D0F;
 	font-size: 30px;
 }
 
