@@ -42,9 +42,16 @@
 	background-color: #E8780C;
 }
 
+.signin{
+border:1px solid #E8780C;
+border-radius: 15px;
+padding: 0 0 !important;
+/*overflow: hidden;*/
+}
+
 /* Body */
 body h2, h3, h4{
-	color:#7E8F7C;
+	color:#E8780C;
 	margin-bottom: 30px;
 }
 
@@ -121,7 +128,7 @@ body{
 
 /* Comment ça marche */
 .fa{
-	color:#C63D0F;
+	color:#E8780C;
 	font-size: 30px;
 }
 
