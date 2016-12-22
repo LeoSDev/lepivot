@@ -1,7 +1,12 @@
+/* Theme Color */
+:root {
+  --main-color: #1abc9c;
+}
+
 /* Top Nav */
 
 #topmenu{
-	height: 80px;
+	height: 82px;
 	padding: 0px 40px;
 }
 
@@ -17,12 +22,12 @@
 
 #topmenu a{
 	font-size: 18px;
-	color:#E8780C;
+	color:white;
 }
 
 #topmenu a:hover{
 	text-decoration: none;
-	color: #CF6A0A ;
+	color: #d35400 ;
 }
 
 #navigation{
@@ -39,66 +44,70 @@
 
 #navigation a:hover{
 	color: white;
-	background-color: #E8780C;
+	background-color: var(--main-color);
+
 }
 
 .signin{
-border:1px solid #E8780C;
+	color:#1abc9c;
+border:1px solid var(--main-color);
 border-radius: 15px;
 padding: 0 0 !important;
 /*overflow: hidden;*/
 }
 
 /* Body */
-body h2, h3, h4{
-	color:#E8780C;
+body h1, h2, h3, h4{
+	color:white;
 	margin-bottom: 30px;
 }
 
 body{
-	font-family: 'Open Sans', 'Arial';
+	font-family: 'Ubuntu', 'Arial';
 	font-size: 18px;
 }
 
 
 /* Wrapper */
-
-#wrapper{
-	height: 600px;
-	background-image: url("../images/conference-room.jpg");	
- 	background-attachment: fixed;
+.test{
+		background-image: url("../images/entrepreneur.jpg");	
+background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-   box-shadow: inset 0 0 0 1000px rgba(230,230,230,0.6);
+        box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.4);
+
+}
+
+#wrapper{
+	height: 600px;
+ 	
 	padding:150px 50px;
 }
 
 #wrapper h1{
-	color: #E8780C;
-	text-shadow: 2px 2px 5px #9A938B;
-	font-size:70px;
+	text-shadow: 2px 2px 5px rgba(211,84,22);
+	font-size:56px;
 }
 
 
 #wrapper h2{
-	color: #E8780C;
-	text-shadow: 1px 1px 3px #9A938B;
-	font-size:24px;
+	/*text-shadow: 1px 1px 3px #16a085;*/
+	font-size:30px;
 	margin-bottom: 50px;
 }
 
 .cta{
 	padding:10px 30px 10px 30px;
 	font-size: 18px;
-	background-color: #0CB8E8;
+	background-color: #1abc9c;
 	color:white;
 }
 
 .cta:hover{
-	background-color: #0CB8E8;
+	background-color: #00C8D3;
 	color:white;
-	border:1px solid #00799B;
+	border:1px solid #009DA6;
 }
 
 #wrapper .cours-container{
@@ -106,7 +115,7 @@ body{
 	color:#00799B;
 	padding:20px 30px;
 	border-radius: 15px;
-		box-shadow: 2px 2px 5px #9A938B;
+		box-shadow: 2px 2px 5px rgba(211,84,22);
 
 }
 
@@ -117,8 +126,7 @@ body{
 }
 
 #wrapper .cours-container h3{
-	color:#E8780C;
-
+color:#1abc9c;
 }
 
 #wrapper .cours-container .cours-body{
@@ -128,7 +136,7 @@ body{
 
 /* Comment ça marche */
 .fa{
-	color:#E8780C;
+	color:var(--main-color);
 	font-size: 30px;
 }
 
