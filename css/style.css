@@ -5,9 +5,19 @@
 
 /* Top Nav */
 
-#topmenu{
+#topnav{
 	height: 82px;
 	padding: 0px 40px;
+}
+
+#topnav a{
+	font-size: 18px;
+	color:white;
+}
+
+#topnav a:hover{
+	text-decoration: none;
+	color: var(--main-color) ;
 }
 
 #headerlogo{
@@ -20,40 +30,23 @@
 	font-weight: 700;
 }
 
-#topmenu a{
-	font-size: 18px;
-	color:white;
-}
-
-#topmenu a:hover{
-	text-decoration: none;
-	color: #d35400 ;
-}
-
 #navigation{
 	float: right;
-	height: 80px;
+	height: 82px;
+}
+
+#navigation.main-menu{
+	margin-top: 26px;
 }
 
 #navigation a{
 	display: inline-block;
-	height: 80px;
-	padding: 30px 30px;
-
+	padding: 5px 20px;
 }
 
 #navigation a:hover{
-	color: white;
-	background-color: var(--main-color);
+	color: var(--main-color);
 
-}
-
-.signin{
-	color:#1abc9c;
-border:1px solid var(--main-color);
-border-radius: 15px;
-padding: 0 0 !important;
-/*overflow: hidden;*/
 }
 
 /* Body */
@@ -69,20 +62,20 @@ body{
 
 
 /* Wrapper */
-.test{
-		background-image: url("../images/entrepreneur.jpg");	
-background-attachment: fixed;
+.background-image{
+	background-image: url("../images/entrepreneur.jpg");	
+	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-        box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.4);
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.4);
 
 }
 
 #wrapper{
 	height: 600px;
  	
-	padding:150px 50px;
+	padding:100px 50px;
 }
 
 #wrapper h1{
@@ -100,13 +93,13 @@ background-attachment: fixed;
 .cta{
 	padding:10px 30px 10px 30px;
 	font-size: 18px;
-	background-color: #1abc9c;
+	background-color: var(--main-color);
 	color:white;
 }
 
 .cta:hover{
 	background-color: #00C8D3;
-	color:white;
+	color:white !important;
 	border:1px solid #009DA6;
 }
 
