@@ -50,20 +50,31 @@
 }
 
 /* Body */
-body h1, h2, h3, h4{
-	color:white;
-	margin-bottom: 30px;
-}
 
 body{
 	font-family: 'Ubuntu', 'Arial';
 	font-size: 18px;
+	color:#9A938B;
+	background-color: #F4F4F4;
+
 }
 
+body h1, h2{
+	font-weight: 700;
+	color:grey;
+	margin-bottom: 30px;
+}
+
+body h3, h4
+{
+	color: var(--main-color);
+	font-weight: 700;
+	margin-bottom: 30px;
+}
 
 /* Wrapper */
 .background-image{
-	background-image: url("../images/entrepreneur.jpg");	
+	background-image: url("../images/entrepreneur.jpg");
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -73,21 +84,23 @@ body{
 }
 
 #wrapper{
-	height: 600px;
- 	
+	min-height: 600px;
 	padding:100px 50px;
 }
 
 #wrapper h1{
 	text-shadow: 2px 2px 5px rgba(211,84,22);
-	font-size:56px;
+	font-size:48px;
+	color:white;
+	margin-top:60px; 
 }
 
 
 #wrapper h2{
 	/*text-shadow: 1px 1px 3px #16a085;*/
-	font-size:30px;
+	font-size:25px;
 	margin-bottom: 50px;
+	color:white;
 }
 
 .cta{
@@ -125,6 +138,11 @@ color:#1abc9c;
 #wrapper .cours-container .cours-body{
 	color:#9A938B;
 
+}
+
+/* Presentation */
+#presentation h2{
+	margin-bottom: 60px;
 }
 
 /* Comment ça marche */
