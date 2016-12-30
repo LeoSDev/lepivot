@@ -141,7 +141,7 @@ color:#1abc9c;
 }
 
 /* Presentation */
-#presentation h2{
+#content h2{
 	margin-bottom: 60px;
 }
 
@@ -159,11 +159,26 @@ color:#1abc9c;
 	font-size: 30px;
 }
 
+/* Supports */
+#supports{
+	background-color: white;
+	padding: 0px 10px 0px 40px;
+}
+
+#supports h3{
+	color:black;
+}
+
+.supports-logo{
+	margin-top: 22px;
+}
+
+
 /* Spacers */
 .spacer{
 	height: 150px;
 }
 
 .spacer-sm{
-	height: 60px;
+	height: 45px;
 }
