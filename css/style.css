@@ -173,6 +173,13 @@ color:#1abc9c;
 	margin-top: 22px;
 }
 
+/* Footer */
+#footer ul{
+	list-style: none;
+    padding-left: 0;
+    line-height: 1.8;
+
+}
 
 /* Spacers */
 .spacer{
