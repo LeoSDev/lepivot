@@ -281,3 +281,13 @@ la page propos.html concernant le header de celle ci*/
  .color{
  		background-color: white;
  }
+
+ /*************************** Détail1.HTML ***************************/
+
+ul.arrow{
+	list-style-image: url('/images/flêche.png');
+}
+
+
+
+
