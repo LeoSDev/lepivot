@@ -1,0 +1,61 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Le Pivot - Cours online sur l'Entreprenariat!</title>
+		<meta name="description" content="Apprenez toutes les bases de l'entreprenariat pour mener au mieux votre aventure entreprenariale.">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+		<body>
+			<div id="topnav">
+				<div id="headerlogo">
+					<a class="logo" href="#">Le Pivot</a>
+				</div>
+				<div id="navigation" class="main-menu">
+					<ul class="list-inline">
+						<li><a href="#">Les cours</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a class="btn btn-default cta" href="#">Inscription</a></li>
+					</ul>
+				</div>
+			</div>
+
+
+
+
+
+
+
+
+
+
+			<div class="row text-center" id="footer">
+			<div class="spacer-sm"></div>
+
+					<div class="col-sm-6 col-md-3">
+						<h4>Contact</h4>
+						<p>contact@lepivot.com</p>
+						<p>79 avenue de la République</p>
+						<p>75011 Paris</p>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<h4>Plan Du site</h4>
+						<ul>
+							<li><a href="">Accueil</a></li>
+							<li><a href="">Les cours</a></li>
+							<li><a href="">Contact</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-6 col-md-3"></div>
+					<div class="col-sm-6 col-md-3"></div>
+			</div>
+
+
+		</body>
