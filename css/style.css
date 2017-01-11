@@ -17,7 +17,25 @@
 
 #topnav a:hover{
 	text-decoration: none;
-	color: var(--main-color) ;
+	color: var(--main-color);
+}
+/* les 4 "#topnavaprpos" sont pour 
+la page propos.html concernant le header de celle ci*/
+
+#topnavapropos{
+	height: 82px;
+	padding: 0px 40px;
+	background-color: #c0c0c0;
+}
+
+#topnavapropos a{
+	font-size: 18px;
+	color:white;
+}
+
+#topnavapropos a:hover{
+	text-decoration: none;
+	color: var(--main-color);
 }
 
 #headerlogo{
@@ -217,3 +235,9 @@ color:#1abc9c;
 .spacer-sm{
 	height: 45px;
 }
+
+/* texte et mise en page de la feuille propos.html */
+
+
+
+
