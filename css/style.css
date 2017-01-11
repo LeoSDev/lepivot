@@ -19,24 +19,6 @@
 	text-decoration: none;
 	color: var(--main-color);
 }
-/* les 4 "#topnavaprpos" sont pour 
-la page propos.html concernant le header de celle ci*/
-
-#topnavapropos{
-	height: 82px;
-	padding: 0px 40px;
-	background-color: #c0c0c0;
-}
-
-#topnavapropos a{
-	font-size: 18px;
-	color:white;
-}
-
-#topnavapropos a:hover{
-	text-decoration: none;
-	color: var(--main-color);
-}
 
 #headerlogo{
 	float: left;
@@ -90,6 +72,55 @@ body h3, h4
 	font-size: 22px;
 	margin-bottom: 30px;
 }
+
+/* Footer */
+#footer{
+	background-color: grey;
+	color: white;
+}
+
+#footer h4{
+	color: white;
+}
+
+#footer ul{
+
+	list-style: none;
+    padding-left: 0;
+    line-height: 1.8;
+
+}
+
+#footer a{
+	color: var(--main-color) ;
+
+}
+
+#copyright{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+/* Icons */
+.fa{
+	color:var(--main-color);
+	font-size: 30px;
+}
+
+.fb-icon{
+	height: 42px;
+}
+
+/* Spacers */
+.spacer{
+	height: 150px;
+}
+
+.spacer-sm{
+	height: 45px;
+}
+
+/*************************** INDEX.HTML ***************************/
 
 /* Wrapper */
 .background-image{
@@ -189,55 +220,26 @@ color:#1abc9c;
 	margin-top: 22px;
 }
 
-/* Footer */
-#footer{
-	background-color: grey;
-	color: white;
+/*************************** PROPOS.HTML ***************************/
+
+/* les 4 "#topnavaprpos" sont pour 
+la page propos.html concernant le header de celle ci*/
+
+#topnavapropos{
+	height: 82px;
+	padding: 0px 40px;
+	background-color: #c0c0c0;
 }
 
-#footer h4{
-	color: white;
+#topnavapropos a{
+	font-size: 18px;
+	color:white;
 }
 
-#footer ul{
-
-	list-style: none;
-    padding-left: 0;
-    line-height: 1.8;
-
+#topnavapropos a:hover{
+	text-decoration: none;
+	color: var(--main-color);
 }
-
-#footer a{
-	color: var(--main-color) ;
-
-}
-
-#copyright{
-	margin-top: 15px;
-	margin-bottom: 15px;
-}
-
-/* Icons */
-.fa{
-	color:var(--main-color);
-	font-size: 30px;
-}
-
-.fb-icon{
-	height: 42px;
-}
-
-/* Spacers */
-.spacer{
-	height: 150px;
-}
-
-.spacer-sm{
-	height: 45px;
-}
-
-/* texte et mise en page de la feuille propos.html */
-
 
 
 
