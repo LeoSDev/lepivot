@@ -238,10 +238,16 @@ color:#1abc9c;
 
 #courses .box-course{
 	background-color: white;
-	min-height: 150px;
+	min-height: 190px;
 	border-radius: 15px;
 	box-shadow: 1px 1px 5px rgb(220,220,220);
 	padding: 20px 20px;
+	margin-bottom: 15px;
+}
+
+#courses .box-course a{
+	color:var(--main-color);
+	cursor: auto;
 }
 
 /*************************** PROPOS.HTML ***************************/
