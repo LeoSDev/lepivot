@@ -264,17 +264,10 @@ la page propos.html concernant le header de celle ci*/
 	color: var(--main-color);
 }
 
-.center{
-	text-align: center;
-	margin-top: 50px;
-}
-.justify{
-	text-justify: inter-word;
-}
  .circle{
  	border-radius:150px;
  }
-#paragraphe{
-	margin-top: 20px;
-	margin-bottom: 50px;
-}
+ .padding{
+ 	padding-right: 200px;
+ 	padding-left: 200px;
+ }
