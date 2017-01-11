@@ -69,6 +69,7 @@ body h3, h4
 {
 	color: var(--main-color);
 	font-weight: 700;
+	font-size: 22px;
 	margin-bottom: 30px;
 }
 
@@ -147,7 +148,7 @@ color:#1abc9c;
 
 .box-sm{
 	background-color: white;
-	min-height: 280px;
+	min-height: 300px;
 	padding: 40px 20px 10px 20px;
 	box-shadow: 2px 2px 5px #c9c9c9;
 	margin-bottom: 15px;
