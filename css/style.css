@@ -247,8 +247,24 @@ color:#1abc9c;
 
 #courses .box-course a{
 	color:var(--main-color);
-	cursor: auto;
+	cursor: pointer;
 }
+
+/* Form */
+.inscriptionForm{
+	width: 80%;
+	margin:auto;
+	padding: 10px 20px 10px 20px;
+}
+
+.inscriptionForm #firstnameInput{
+	width: 50%;
+}
+
+.inscriptionForm #nameInput{
+	width: 49%;
+}
+
 
 /*************************** PROPOS.HTML ***************************/
 

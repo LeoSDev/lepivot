@@ -36,7 +36,7 @@
 					<ul class="list-inline">
 						<li><a href="index.html#programme">Les cours</a></li>
 						<li><a href="propos.html">A propos</a></li>
-						<li><a class="btn btn-default cta" href="#">Inscription</a></li>
+						<li><button class="btn btn-default cta" data-toggle="modal" data-target="#inscriptionModal">Inscription</button></li>
 					</ul>
 				</div>
 			</div>
@@ -57,7 +57,7 @@
 						</div>
 						<div class="spacer-sm"></div>
 						<div class="text-right">
-							<a class="btn btn-default cta" href="#presentation">Commencer</a>
+							<button class="btn btn-default cta" data-toggle="modal" data-target="#inscriptionModal">Commencer</button>
 						</div>
 					</div>
 				</div>
@@ -175,7 +175,7 @@
 							<h4>Cours 1 : Testez votre idée ! </h4>
 							<p>	Créez et effectuez un test efficace, reposant sur des hypothèses solides pour en apprendre plus sur vos futurs clients.</p>
 							<div class="text-right">
-								<a href="">Commencer</a>
+								<a data-toggle="modal" data-target="#inscriptionModal">Commencer</a>
 							</div>
 						</div>
 						<div class="col-md-12 box-course text-left">
@@ -199,7 +199,7 @@
 								<p>A venir</p>
 							</div>
 						</div>	
-					
+
 						<div class="col-md-12 box-course text-left">
 							<h4>Cours 5 : Les meilleurs outils pour gagner du temps </h4>
 							<p>	Unbounce, Strikingly, Streak etc... ne perdez pas de temps à réinventer la roue. 20% de travail pour 80% de résultats.</p>
@@ -254,9 +254,42 @@
 					</div>
 
 				</div>
-
-
 			</div>
+
+			<div class="modal fade" id="inscriptionModal" tabindex="-1" role="dialog">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h4 class="modal-title">Inscription</h4>
+						</div>
+						<div class="modal-body">
+							<p>Bienvenue !
+								<br>
+								Inscrivez-vous ci-dessous pour avoir l'occasion de tester le premier cours : "Testez votre idée !"
+								<br>
+							</p>
+							<form class="inscriptionForm">
+								<label>Nom</label>
+								<div class="form-group form-inline">
+									<input type="text" class="form-control" id="firstnameInput" placeholder="Prénom">
+									<input type="text" class="form-control" id="nameInput" placeholder="Nom">
+								</div>	
+
+								<div class="form-group">
+									<label for="inputEmail">Email</label>
+									<input type="email" class="form-control" id="inputEmail1" placeholder="Email">
+								</div>
+								<button type="submit" class="btn btn-default cta">S'incrire</button>
+							</form>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+						</div>
+					</div><!-- /.modal-content -->
+				</div><!-- /.modal-dialog -->
+			</div><!-- /.modal -->
+
 
 			<div class="row text-center" id="footer">
 
@@ -287,7 +320,6 @@
 			</div>	
 
 		</div>
-
 
 
 		<!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
