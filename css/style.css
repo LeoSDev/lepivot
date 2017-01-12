@@ -73,6 +73,14 @@ body h3, h4
 	margin-bottom: 30px;
 }
 
+ .white-bg{
+ 		background-color: white;
+ }
+
+.row-70{
+	width: 70%;
+	margin:auto;
+}
 /* Footer */
 #footer{
 	background-color: grey;
@@ -294,10 +302,6 @@ la page propos.html concernant le header de celle ci*/
  	padding-right: 200px;
  	padding-left: 200px;
  }
- .color{
- 		background-color: white;
- }
-
  /*************************** Détail1.HTML ***************************/
 
 ul.arrow{
