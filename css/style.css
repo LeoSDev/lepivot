@@ -273,8 +273,7 @@ color:#1abc9c;
 
 /*************************** PROPOS.HTML ***************************/
 
-/* les 4 "#topnavaprpos" sont pour 
-la page propos.html concernant le header de celle ci*/
+/* Css clean : background override only*/
 
 .topnav-apropos-bg{
 	background-color: #c0c0c0;
