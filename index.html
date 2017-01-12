@@ -29,16 +29,32 @@
 	<body>
 		<div class="background-image">
 			<div id="topnav">
-				<div id="headerlogo">
-					<a class="logo" href="http://lepivot.fr">Le Pivot</a>
-				</div>
-				<div id="navigation" class="main-menu">
-					<ul class="list-inline">
-						<li><a href="index.html#programme">Les cours</a></li>
-						<li><a href="propos.html">A propos</a></li>
-						<li><button class="btn btn-default cta" data-toggle="modal" data-target="#inscriptionModal">Inscription</button></li>
-					</ul>
-				</div>
+				<nav class="navbar">
+					<div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<div id="headerlogo">
+								<a class="logo" href="http://lepivot.fr">Le Pivot</a>
+							</div>
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="navigation">
+
+							<ul class="nav navbar-nav navbar-right list-inline text-center">
+								<li><a href="index.html#programme">Les cours</a></li>
+								<li><a href="propos.html">A propos</a></li>
+								<li><button class="btn btn-default cta" data-toggle="modal" data-target="#inscriptionModal">Inscription</button></li>
+							</ul>
+						</div><!-- /.navbar-collapse -->
+					</div><!-- /.container-fluid -->
+				</nav>
 			</div>
 			<div class="container" id="wrapper">
 				<div class="row">
@@ -46,7 +62,7 @@
 						<h1>Lancez votre Startup !</h1>
 						<h2>Plus qu'un cours en ligne, vous obtenez des compétences directement applicables à votre projet !</h2>
 					</div>
-					<div class="col-sm-5 col-sm-offset-1 cours-container">
+					<div class="col-sm-5 col-sm-offset-1 cours-container white-bg">
 						<div class="cours-header">
 							<p>Cours n°1</p>
 						</div>
@@ -151,19 +167,19 @@
 
 			</div>
 			<div class="row" id="supports">
-					<div class="col-sm-6">
+				<div class="col-sm-6">
 
-						<h3>En partenariat avec l'ESCP Europe</h3>
-						<p class="text-justify">
-							Les cours sont créés au sein de l'ESCP Europe !<br>
-							Ils bénéficient de la qualité de l’enseignement de cette Grande École, mais sont néanmoins conçus pour être directement <strong>applicables</strong> à votre projet.
-						</p>
-					</div>
+					<h3>En partenariat avec l'ESCP Europe</h3>
+					<p class="text-justify">
+						Les cours sont créés au sein de l'ESCP Europe !<br>
+						Ils bénéficient de la qualité de l’enseignement de cette Grande École, mais sont néanmoins conçus pour être directement <strong>applicables</strong> à votre projet.
+					</p>
+				</div>
 
-					<div class="col-sm-6"><img class="supports-logo" src="images/logo-escp.jpg" alt="logo ESCP" width="300px">
+				<div class="col-sm-6"><img class="supports-logo" src="images/logo-escp.jpg" alt="logo ESCP" width="300px">
 
-					</div>
-					
+				</div>
+
 
 			</div>
 			
