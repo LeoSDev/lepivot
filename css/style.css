@@ -266,11 +266,11 @@ color:#1abc9c;
 	padding: 10px 20px 10px 20px;
 }
 
-.inscriptionForm #firstnameInput{
+.inscriptionForm #mce-FNAME{
 	width: 50%;
 }
 
-.inscriptionForm #nameInput{
+.inscriptionForm #mce-LNAME{
 	width: 49%;
 }
 
