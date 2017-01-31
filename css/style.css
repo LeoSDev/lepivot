@@ -286,9 +286,12 @@ color:#1abc9c;
  .circle{
  	border-radius:150px;
  }
- .padding{
- 	padding-right: 200px;
- 	padding-left: 200px;
+ 
+ .teamDesc{
+ 	width: 70%;
+ 	margin-top: 15px;
+ 	margin-left: auto;
+ 	margin-right: auto;
  }
  /*************************** Détail1.HTML ***************************/
 
